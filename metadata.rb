@@ -1,0 +1,13 @@
+name             'drupal-8'
+maintainer       'Matt Smth'
+maintainer_email 'matt@apaxsoftware.com'
+license          'All rights reserved'
+description      'Installs/Configures drupal-8'
+long_description 'Installs/Configures drupal-8'
+version          '0.1.0'
+
+depends 'apache2'
+depends 'mysql'
+depends 'database'
+depends 'apt'
+depends 'mysql2_chef_gem'
